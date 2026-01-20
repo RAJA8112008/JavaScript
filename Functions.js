@@ -76,7 +76,18 @@
     // })
 
 
-    let arr=[1,2,3,4,5,6,7];
+    // let arr=[1,2,3,4,5,6,7];
+    // arr.forEach((val)=>{
+    //     console.log(val);
+    // })
+
+    //Practice question  square of arr using ForEach LOOP
+    let arr=[10,20,30,40,50];
+    let result=[];
     arr.forEach((val)=>{
-        console.log(val);
-    })
+       result.push(val*val);
+    });
+    console.log(result);
+    
+
+
