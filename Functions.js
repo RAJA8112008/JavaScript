@@ -85,7 +85,8 @@
     let arr=[10,20,30,40,50];
     let result=[];
     arr.forEach((val)=>{
-       result.push(val*val);
+    //    result.push(val*val);
+    console.log(val*val);
     });
     console.log(result);
     
