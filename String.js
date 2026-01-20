@@ -24,8 +24,8 @@
       //Tab space->\t
 
       let str="HarshKumar";
-      let val=str.toUpperCase();
-      console.log(val);
+     str.toUpperCase();
+      console.log(str);
 
 
 
