@@ -32,9 +32,14 @@
     // str.trim();
     // console.log(str);
 
-let str="  HarshKumar  ";
- let val=str.trim();
- console.log(val);
+// let str="  HarshKumar  ";
+//  let val=str.trim();
+//  console.log(val);
+
+
+  let str="Hello";
+  let val=str.replace('H','y');
+  console.log(val);
 
 
 
