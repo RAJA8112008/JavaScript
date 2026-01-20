@@ -6,3 +6,8 @@ let items=["Bloomburg","Microsoft","Google","GFG"];
  //Remove GFG and add Uber
  items.splice(3,1,'Uber');
  console.log(items);
+
+ //Add Amazon at End  
+ items.push('Amazon');
+ console.log(items);
+  
