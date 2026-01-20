@@ -70,7 +70,13 @@
     //FOR EACH LOOP
 
 
-    let arr=[10,20,30,40,50];
-    arr.forEach(function printval(val){
+    // let arr=[10,20,30,40,50];
+    // arr.forEach(function printval(val){
+    //     console.log(val);
+    // })
+
+
+    let arr=[1,2,3,4,5,6,7];
+    arr.forEach((val)=>{
         console.log(val);
     })
