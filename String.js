@@ -49,8 +49,9 @@
    console.log(output); 
    */
   //splice methode
-  let arr=[1,2,3,4,5,6,7,8];
-  arr.splice(1,1,101);
+//   let arr=[1,2,3,4,5,6,7,8];
+//   arr.splice(1,1,101);
+//    arr.splice(1,1,101,102);
 //   splice(startingindex,deletePosition count,addition values)
 
 
