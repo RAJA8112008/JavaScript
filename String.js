@@ -11,5 +11,7 @@
     branch:"CSIT",
     section: "II"
   }
-  console.log(obj.Name);
+//   console.log(obj.Name);
+console.log("My name is ",obj.Name,"My branch is",obj.branch,"section is",obj.section);
+
 
