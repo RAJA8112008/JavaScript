@@ -1,4 +1,4 @@
-let str="RajaKumar";
+let str="RajaKumarSaniya";
 for(let i of str){
     console.log("i=",i);
 }
