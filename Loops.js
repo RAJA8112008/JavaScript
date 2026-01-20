@@ -46,9 +46,12 @@
     }
      */
     //Question 2 : Guess Number Game
-    let GameNumber=0;
-    let userNum=prompt("Guess the Number=:");
-    while(GameNumber!=userNum){
-        userNum=prompt("Guess the Number again=:");
-    }
-    console.log("Congratulations,You Guess correct Number");
+   /* let GameNumber = 25;
+
+let userNum = Number(prompt("Guess the Number:"));
+
+while (userNum !== GameNumber) {
+    userNum = Number(prompt("Wrong guess 😅 Try again:"));
+}
+
+console.log("🎉 Congratulations Raj! You guessed the correct number."); */
