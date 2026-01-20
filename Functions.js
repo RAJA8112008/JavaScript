@@ -51,18 +51,26 @@
     // console.log(countVowel("Hello"));
 
     /* USING ARROW FUNCTION*/
-    const countvowel=(val)=>{
-        let count = 0;
-   let vowel = ['A','E','I','O','U','a','e','i','o','u'];
+//     const countvowel=(val)=>{
+//         let count = 0;
+//    let vowel = ['A','E','I','O','U','a','e','i','o','u'];
 
-    for (let i of val) {
-         for (let j of vowel) {
-           if (i === j) {
-                 count++;
-            }
-       }
-     }
-    return count;
+//     for (let i of val) {
+//          for (let j of vowel) {
+//            if (i === j) {
+//                  count++;
+//             }
+//        }
+//      }
+//     return count;
 
-    }
-    console.log(countvowel("hello"));
+//     }
+//     console.log(countvowel("hello"));
+
+    //FOR EACH LOOP
+
+
+    let arr=[10,20,30,40,50];
+    arr.forEach(function printval(val){
+        console.log(val);
+    })
