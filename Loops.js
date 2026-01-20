@@ -30,7 +30,17 @@
     //     console.log("val=",student[val]);
     // }
 
-    //question : 1->100 counting printing
-    for(let i=0;i<=100;i++){
-        console.log("i=",i);
+    //question : 1->100 counting printing / Even number /odd number
+    // for(let i=0;i<=100;i++){
+    //     console.log("i=",i);
+    // }
+
+    //Even Number
+    for(let i=0;i<100;i++){
+        if(i%2==0){
+            console.log("Even number=",i);
+        }else{
+              console.log("Odd number=",i);
+        }
+      
     }
