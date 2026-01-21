@@ -35,11 +35,14 @@
     // })
 
 
-             //Creation of some Tags using JS
-             let button=document.createElement("button");
-               button.innerText='Click me';
+             /*Creation of some Tags using JS*/
+
+
+
+             //let button=document.createElement("button");
+              // button.innerText='Click me';
                  
-               let div=document.getElementById('parentBox');
+            //let div=document.getElementById('parentBox');
                //at the last of chillsdiv
                       //    div.append(button);
                //at the first of childdivs
@@ -48,4 +51,4 @@
                 //at the first of the parent div
                    //    div.before("button");
                 // at the end of the parent div
-                 div.after("button");
+                   //  div.after("button");
