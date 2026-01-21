@@ -20,10 +20,14 @@
    
 
                         /* practice  Question ->give unique name each div*/
-                        
-    let divs= document.querySelectorAll('.box');
-    let index=1;
-    for(let div of divs){
-     div.innerText=`first div ${index}`;
-     index++;
-     }
+
+     let divs= document.querySelectorAll('.box');
+        let index=1;
+    // for(let div of divs){
+    //  div.innerText=`first div ${index}`;
+    //  index++;
+    //  }
+    divs.forEach((div)=>{
+         div.innerText=`first div ${index}`;
+          index++;
+    })
