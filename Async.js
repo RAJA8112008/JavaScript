@@ -10,19 +10,19 @@
 
           /*Callback*/ //used for each instruction delay for some time
 
-          function getData(dataId,nextdata){
-            setTimeout(()=>{
-                 console.log("Data:",dataId);
-                 if(getData){
-                   getData(2);
-                 }
+        //   function getData(dataId,nextdata){
+        //     setTimeout(()=>{
+        //          console.log("Data:",dataId);
+        //          if(getData){
+        //            nextData(2);
+        //          }
                 
-            },2000)
+        //     },2000)
            
-          }
-          getData(1,()=>{
-            getData(2);
-          })
+        //   }
+        //   getData(1,()=>{
+        //     getData(2);
+        //   })
 
 
 
