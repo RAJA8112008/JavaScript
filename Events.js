@@ -43,15 +43,15 @@ let div=document.querySelector("#parentBox");
 
            //Practice Question->change colour of screen while clicking on Btn
 
-   let Btn1=document.querySelector("#Btn1");
-   let theme="light";
-   Btn1.addEventListener("click",()=>{
-    if(theme=='light'){
-        theme="dark";
-        document.querySelector("Body").style.backgroundColor="white";
-    }else{
-        theme='light'
-         document.querySelector("Body").style.backgroundColor="black";
-    }
-   })
+//    let Btn1=document.querySelector("#Btn1");
+//    let theme="light";
+//    Btn1.addEventListener("click",()=>{
+//     if(theme=='light'){
+//         theme="dark";
+//         document.querySelector("Body").style.backgroundColor="white";
+//     }else{
+//         theme='light'
+//          document.querySelector("Body").style.backgroundColor="black";
+//     }
+//    })
 
