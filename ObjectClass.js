@@ -1,3 +1,4 @@
+               /*Objects*/ 
 // const student={
 //     fullName:'Raja',
 //     marks:92,
